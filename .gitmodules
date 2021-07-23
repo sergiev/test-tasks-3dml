@@ -1,0 +1,3 @@
+[submodule "Task3/MeshCNN"]
+	path = Task3/MeshCNN
+	url = https://github.com/ranahanocka/MeshCNN
