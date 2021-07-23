@@ -141,3 +141,6 @@ dmypy.json
 cython_debug/
 
 .vscode/
+/Task3/primitives/
+/Task3/checkpoints/
+/Task3/runs/
