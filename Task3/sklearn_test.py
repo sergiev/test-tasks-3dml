@@ -1,9 +1,9 @@
+from sklearn.metrics import classification_report
+import torch
+
 from models import create_model
 from data import DataLoader
 from options.test_options import TestOptions
-
-from sklearn.metrics import classification_report
-import torch
 
 if __name__ == "__main__":
     opt = TestOptions().parse()
