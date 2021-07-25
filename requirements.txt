@@ -5,3 +5,4 @@ sympy==1.8
 tensorboard==2.5
 git+https://github.com/lanpa/tensorboardX.git@Release2.4
 gdown==3.13
+plotly==5.1
