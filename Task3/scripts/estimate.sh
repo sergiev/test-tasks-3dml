@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-## run the test and export collapses
-python test.py \
+cp sklearn_test.py MeshCNN
+python MeshCNN/sklearn_test.py \
 --dataroot primitives \
 --name primitives \
---phase valid \
+--phase $1 \
 --ncf 64 128 256 256 \
 --pool_res 1200 900 600 420 \
+--ninput_edges 2000 \
 --norm group \
---resblocks 1 \
---export_folder meshes
+--resblocks 1

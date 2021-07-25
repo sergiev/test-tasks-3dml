@@ -12,6 +12,6 @@ python MeshCNN/train.py \
 --flip_edges 0.2 \
 --slide_verts 0.2 \
 --num_aug 20 \
---niter 25 \
---niter_decay 15 \
+--niter 15 \
+--niter_decay 10 \
 --print_freq 50
