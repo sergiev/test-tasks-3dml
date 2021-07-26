@@ -1,7 +1,6 @@
 """
 TODO:
 1. Load model
-2. Process single obj-file without label
 3. Display scores
 4. Input via webpage form (upload button or something)
 5. 'Load another file' button

@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-## run the training
-python MeshCNN/train.py \
---dataroot primitives \
+# ATTENTION: script should be called from Task3 dir!
+
+python ../MeshCNN/train.py \
+--dataroot ../MeshCNN/primitives \
+--checkpoints_dir ../MeshCNN/checkpoints \
 --name primitives \
 --ncf 64 128 256 256 \
 --pool_res 1200 900 600 420 \

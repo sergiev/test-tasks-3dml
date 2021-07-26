@@ -1,4 +1,8 @@
-DATA_DIR=primitives
+#!/usr/bin/env bash
+
+# ATTENTION: script should be called from Task3 dir!
+
+DATA_DIR=../MeshCNN/primitives
 if [ -d "$DATA_DIR" ]; then
     echo "WARNING: directory '$DATA_DIR' already exists. Download is canceled."
     exit 1
